@@ -1,0 +1,22 @@
+Django==3.1
+psycopg2-binary==2.8.6
+wheel
+Pillow==7.1
+
+
+# Nastraivaem virtualnoe okrujenie:
+#
+# python3 - venv venv
+# source venv/bin/activate
+#
+# Ustanavlivaem django i psycopg2-binary iz faila requirements.txt rekursivno:
+#
+# pip3 install -r requirements.txt
+# ERROR:that port already in use - nujno vot etu komandu:
+# sudo fuser -k 8000/tcp
+
+# python manage.py makemigrations - sozdaetsia tablica Create modelCategory i Create model Post
+# python manage.py migrate -
+# python manage.py createsuperuser - sozdaem administratora
+# username: oskon pwd:admin@2020
+# email: oskon@test.com
